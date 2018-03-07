@@ -1,0 +1,51 @@
+{
+  "name": "vsc.my",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --env development",
+    "build": "webpack --env production",
+    "watch": "webpack --watch",
+    "serv": "static build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^8.1.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.3",
+    "babel-preset-env": "^1.6.1",
+    "breakpoint-sass": "^2.7.1",
+    "clean-webpack-plugin": "^0.1.18",
+    "css-loader": "^0.28.10",
+    "css-mqpacker": "^6.0.2",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^1.1.11",
+    "friendly-errors-webpack-plugin": "^1.6.1",
+    "image-webpack-loader": "^4.1.0",
+    "jquery": "^3.3.1",
+    "lazysizes": "^4.0.1",
+    "node-sass": "^4.7.2",
+    "normalize.css": "^8.0.0",
+    "owl.carousel": "^2.2.0",
+    "picturefill": "^3.0.2",
+    "popper.js": "^1.12.9",
+    "postcss-loader": "^2.1.1",
+    "sass-loader": "^6.0.7",
+    "sharer.js": "^0.3.1",
+    "source-map-loader": "^0.2.3",
+    "style-loader": "^0.20.2",
+    "svg-spritemap-webpack-plugin": "^1.1.1",
+    "svg4everybody": "^2.1.9",
+    "url-loader": "^1.0.1",
+    "webpack": "3.x.x",
+    "webpack-cli": "^2.0.10",
+    "webpack-dev-server": "^3.1.0",
+    "webpack-merge": "^4.1.2"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0"
+  }
+}

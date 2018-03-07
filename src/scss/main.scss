@@ -1,0 +1,51 @@
+@import "~normalize.css";
+@import '~breakpoint-sass/stylesheets/breakpoint';
+@import '~owl.carousel/dist/assets/owl.carousel.min.css';
+
+@include breakpoint(62rem) {
+  width: 50%;
+  display: inline-block;
+  vertical-align: top;
+
+  &:nth-child(odd) {
+    padding-right: 1rem;
+  }
+  &:nth-child(even) {
+    padding-left: 1rem;
+  }
+} 
+$bg-color: grey;
+$base-font: 'Roboto';
+$title-padding: 3em;
+
+body {
+ background: $bg-color;
+ color: red;
+}
+
+h1 {
+  font-family: $base-font;
+  padding: $title-padding;
+  color: red;
+  display: flex;
+}
+
+// .foo {
+//   width: 240px;
+// }
+
+// @media screen and (min-width: 768px) {
+//   .foo {
+//     width: 576px;
+//   }
+// }
+
+// .bar {
+//   width: 160px;
+// }
+
+// @media screen and (min-width: 768px) {
+//   .bar {
+//     width: 384px;
+//   }
+// }
